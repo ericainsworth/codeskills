@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 0 70px;
+}
+
+.header h1 {
+  font-size: 25px;
+}
+
+.nav li a {
+  color: #333;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h2 {
+  font-size: 45px;
+  margin-bottom: 100px;
+}
+
+.jumbotron h2 span {
+  color: #ffc200;
+}
+
+.banner {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.cards {
+  background-color: #ffc200;
+  padding: 80px 0;
+}
+.cards h2 {
+  text-align: center;
+  margin: 10px 0 60px;
+}
+
+.cards img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer img {
+  width: 24px;
+  margin: 10px 10px 0;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
