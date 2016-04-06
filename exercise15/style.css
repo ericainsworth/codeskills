@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.header {
+  background: #000;
+  min-height: 80px;
+}
+
+.header img {
+  padding-top: 15px;
+}
+
+.search-form {
+  float: right;
+  margin-top: 25px;
+}
+
+.search-form input {
+  background: transparent;
+  border: none;
+  height: 30px;
+  border-bottom: 1px solid #fff;
+  margin-right: 7px;
+  width: 260px;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  height: 30px;
+  border-bottom: 1px solid #1a77ff;
+  color: #fff;
+  margin-right: 15px;
+  padding: 0 10px;
+}
+
+.menu {
+  min-height: 40px;
+  background: #152230;
+}
+
+.menu ul.nav li.active {
+  background: #1a77ff;
+}
+
+.menu ul.nav li:hover, .menu ul.nav li a:hover {
+  background: #1a77ff;
+}
+
+.nav li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.nav li a {
+  color: #fff;
+  padding: 0;
+  margin: 0px;
+}
+
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  height: 500px;
+}
+
+.main .container .col-md-5 {
+  padding: 40px;
+}
+
+.date {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+span {
+  border-bottom: 5px solid #1a77ff
+}
+
+.para {
+  font-size: 20px;
+}
+
+.supporting .row {
+  margin: 50px 0;
+  background: #fff;
+}
+
+.supporting .row .col-md-8 {
+  padding: 20px 40px 40px 40px;
+}
+.supporting h3 {
+  margin: 50px 0 50px;
+}
+
+.supporting h4 {
+  margin-bottom: 35px;
+}
+
+.supporting {
+  background: #f2f2f2;
+}
+
+.supporting span {
+  border-bottom: 3px solid #1a77ff;
+
+}
+
+.supporting .row .col-md-4 {
+  padding: 20px 0 40px 15px;
+  background: #152230;
+  color: #fff;
+}
+
+.supporting .row .col-md-12 {
+  padding: 0;
+}
+
+.col-md-12 img {
+  width: 100%;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer ul {
+  float: left;
+  padding: 0;
+}
